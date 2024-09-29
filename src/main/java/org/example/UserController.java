@@ -24,4 +24,30 @@ public class UserController {
     public void removeUser(String nickname) {
         users.remove(nickname);
     }
+    public User editUser(User inputUser) {
+        try {
+            if (inputUser.getNickname() == null) {
+                throw new RuntimeException("User nickname cannot be null");
+
+        }
+            User outUser = users.get(inputUser.getNickname());
+
+            if(outUser == null) {
+                throw new RuntimeException("User not found");
+            }
+            if(inputUser.getName() != null) {
+                outUser.setName(inputUser.getName());
+            }
+            if (inputUser.getAge() != null) {
+                outUser.setAge(inputUser.getAge());
+            }
+            if (inputUser.getFriends() != null) {
+                outUser.setFriends(inputUser.getFriends());
+            }
+            users.put(outUser.getNickname(), outUser); //Save
+            return outUser;
+        } catch (RuntimeException e) {
+            throw new RuntimeException("Editing user failed", e);
+        }
+    }
 }
