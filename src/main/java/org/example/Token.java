@@ -1,10 +1,15 @@
 package org.example;
 
+/*
+Token rights data class
+includes constructor and getters
+* */
+
 public class Token {
-    private String token;
     private boolean readRights;
     private boolean addRights;
     private boolean editRights;
+    private boolean deleteRights;
 
     public boolean hasDeleteRights() {
         return deleteRights;
@@ -22,14 +27,8 @@ public class Token {
         return readRights;
     }
 
-    public String getToken() {
-        return token;
-    }
-
-    private boolean deleteRights;
-    public Token(String token, boolean readRights, boolean addRights, boolean editRights, boolean deleteRights) {
+    public Token(boolean readRights, boolean addRights, boolean editRights, boolean deleteRights) {
         super();
-        this.token = token;
         this.readRights = readRights;
         this.addRights = addRights;
         this.editRights = editRights;

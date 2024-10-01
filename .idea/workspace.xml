@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89cffb0b-70b3-42b6-840e-5a454fd1d178" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intelij-http-requests-example.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/launch-in-bash.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/launch-jar-in-bash.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/launch-jar.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/launch.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TokenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,52 +37,62 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Heart-n-Core"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Heart-n-Core&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Heart-n-Core/Task_Social_Network_CRUD_Server.git",
-    "accountId": "998e6a90-b252-4e8d-8ebb-b61878423e85"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Heart-n-Core/Task_Social_Network_CRUD_Server.git&quot;,
+    &quot;accountId&quot;: &quot;998e6a90-b252-4e8d-8ebb-b61878423e85&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2mkkGN5ZeLEU1794mhtWHwvOMTq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "HTTP Request.All in rest-api.executor": "Run",
-    "HTTP Request.rest-api | #1.executor": "Run",
-    "HTTP Request.rest-api | #2.executor": "Run",
-    "HTTP Request.rest-api | #3.executor": "Run",
-    "HTTP Request.rest-api | #4.executor": "Run",
-    "HTTP Request.rest-api | Edit1.executor": "Run",
-    "HTTP Request.rest-api | GetRequest.executor": "Run",
-    "HTTP Request.rest-api | GetSingle.executor": "Run",
-    "HTTP Request.rest-api | Remove.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/A_downloads/IT/Java_2024/Task_Social_Network_CRUD_Server/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.All in rest-api.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | Edit1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | Edit2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | GetRequest.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | GetSingle.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | Remove.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Build.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/A_downloads/IT/Java_2024/Task_Social_Network_CRUD_Server/prev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/A_downloads/IT/Java_2024/Task_Social_Network_CRUD_Server/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="HTTP Request.rest-api | GetRequest">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\A_downloads\IT\Java_2024\Task_Social_Network_CRUD_Server\prev" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Build">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Task_Social_Network_CRUD_Server" />
@@ -83,25 +106,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rest-api | Edit1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="9" requestIdentifier="Edit1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="rest-api | Edit2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="10" requestIdentifier="Edit2" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="rest-api | GetRequest" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="6" requestIdentifier="GetRequest" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api | Remove" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="9" requestIdentifier="Remove" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="rest-api | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="HTTP Request.rest-api | #1" />
+      <item itemvalue="HTTP Request.rest-api | #3" />
+      <item itemvalue="HTTP Request.rest-api | GetRequest" />
+      <item itemvalue="HTTP Request.rest-api | Remove" />
+      <item itemvalue="Maven.Build" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.rest-api | GetRequest" />
-        <item itemvalue="HTTP Request.rest-api | Edit2" />
-        <item itemvalue="HTTP Request.rest-api | Edit1" />
-        <item itemvalue="HTTP Request.rest-api | #1" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="HTTP Request.rest-api | Remove" />
+        <item itemvalue="HTTP Request.rest-api | #1" />
+        <item itemvalue="HTTP Request.rest-api | #3" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +152,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727627870350</updated>
-      <workItem from="1727627871452" duration="15611000" />
+      <workItem from="1727627871452" duration="15927000" />
+      <workItem from="1727701999247" duration="15184000" />
+      <workItem from="1727807289589" duration="1307000" />
     </task>
     <servers />
   </component>

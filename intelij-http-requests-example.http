@@ -1,0 +1,40 @@
+# @name=AddFull
+POST http://localhost:4567/users
+Authorization: apXDHN7DV4MV9lrTTouIEzGs0uyaDmau
+
+{"nickname":"HeartCore", "name":"Ivan", "age":"17", friends:["Spudei1","Spudei2"]}
+
+###
+# @name=AddName
+POST http://localhost:4567/users
+Authorization: apXDHN7DV4MV9lrTTouIEzGs0uyaDmau
+
+{"nickname":"MrVanekTop", "name":"Ivan"}
+
+###
+# @name=GetRequest
+GET http://localhost:4567/users
+Authorization: apXDHN7DV4MV9lrTTouIEzGs0uyaDmau
+
+{}
+
+###
+# @name=GetSingle
+GET http://localhost:4567/users/MrVanekTop
+Authorization: apXDHN7DV4MV9lrTTouIEzGs0uyaDmau
+
+{}
+
+###
+# @name=Edit
+PUT http://localhost:4567/users
+Authorization: apXDHN7DV4MV9lrTTouIEzGs0uyaDmau
+
+{"nickname":"HeartCore", "name":"Alex", "age":"18", friends:["Ivan"]}
+
+###
+# @name=Delete
+DELETE http://localhost:4567/users/MrVanekTop
+Authorization: apXDHN7DV4MV9lrTTouIEzGs0uyaDmau
+
+{}

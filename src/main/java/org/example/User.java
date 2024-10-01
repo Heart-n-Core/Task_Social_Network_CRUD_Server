@@ -2,6 +2,12 @@ package org.example;
 
 import java.util.ArrayList;
 
+/*
+Main data unit class - User
+includes constructor, getters and setters
+* */
+
+
 public class User {
     private String nickname;
     private String name;
@@ -18,7 +24,18 @@ public class User {
 
     @Override
     public String toString() {
-        String response = "Nickname: "+nickname + " Name:" + name + " Age:" + age + " Friends:" + friends.toString();
+        String response = "";
+        response += "Nickname: " + nickname + "\n";
+        if (name != null) {
+            response += "Name: " + name + "\n";
+        }
+        if (age != null) {
+            response += "Age: " + age + "\n";
+        }
+        if (friends != null) {
+            response += "Friends: " + friends + "\n";
+        }
+        response +="\n";
         return response;
     }
 

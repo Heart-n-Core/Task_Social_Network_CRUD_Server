@@ -1,0 +1,13 @@
+[
+  {
+    "nickname": "MrVanekTop",
+    "name": "Ivan",
+    "age": "17"
+  },
+  {
+    "nickname": "GrosKent",
+    "name": "Alex",
+    "age": "18",
+    "friends": ["MrVanekTop", "hollowtq"]
+  }
+]
