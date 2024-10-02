@@ -1,9 +1,6 @@
 ## Task HTTP CRUD server for social network by Ivan Sosniuk
 
 **Опції файлів скриптів для запуску програми:**
- - **Запуск скомпільованої програми:** 
-    - launch.bat
-    - launch-in-bash.sh
  - **Запуск portable runnable jar:**
     - launch-jar.bat
     - launch-jar-in-bash.sh
