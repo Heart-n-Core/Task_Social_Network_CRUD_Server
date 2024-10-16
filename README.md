@@ -16,11 +16,9 @@ HTTP запити здійснюються за портом 4567  на **/users
  - Invoke-WebRequest -Uri "http://localhost:4567/users" -Method Get -Headers @{ Authorization = 'apXDHN7DV4MV9lrTTouIEzGs0uyaDmau' } -UseBasicParsing
    
  - **GET - отримати дані одного користувача(/users/`НІКНЕЙМ`)**
- - Invoke-WebRequest -Uri "http://localhost:4567/users/MrVanekTop"   
-   -Method Get -Headers @{ Authorization = 'apXDHN7DV4MV9lrTTouIEzGs0uyaDmau' } -UseBasicParsing
+ - Invoke-WebRequest -Uri "http://localhost:4567/users/MrVanekTop" -Method Get -Headers @{ Authorization = 'apXDHN7DV4MV9lrTTouIEzGs0uyaDmau' } -UseBasicParsing
  - **POST - додати одного користувача(/users)**
- - Invoke-WebRequest -Uri "http://localhost:4567/users" -Method Post
-   -Headers @{ Authorization = 'apXDHN7DV4MV9lrTTouIEzGs0uyaDmau' } -Body "{"nickname":"HeartCore", "name":"Ivan", "age":"17", friends:["Spudei1","Spudei2"]} " -UseBasicParsing
+ - Invoke-WebRequest -Uri "http://localhost:4567/users" -Method Post -Headers @{ Authorization = 'apXDHN7DV4MV9lrTTouIEzGs0uyaDmau' } -Body "{'nickname':'HeartCore', 'name':'Ivan', 'age':'17', friends:['Spudei1','Spudei2']} " -UseBasicParsing
  - **PUT - редагувати одного наявного користувача(/users)**
  - Invoke-WebRequest -Uri "http://localhost:4567/users" -Method Put
    -Headers @{ Authorization = 'apXDHN7DV4MV9lrTTouIEzGs0uyaDmau' } -Body "{'nickname':'MrVanekTop', 'name':'Alex', 'age':'18', friends:['Ivan']}" -UseBasicParsing
